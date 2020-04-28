@@ -1,0 +1,17 @@
+{
+  "name": "VisionAid",
+  "displayName": "VisionAid",
+  "expo": {
+    "name": "VisionAid",
+    "slug": "VisionAid",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
