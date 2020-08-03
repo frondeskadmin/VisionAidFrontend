@@ -39,7 +39,7 @@ export default class CameraPage extends Component {
 
                 const formData = new FormData();
                 formData.append('photo', {uri: value.uri, name: 'image.jpg', type: 'image/jpeg'});
-                fetch('https://marra.herokuapp.com/api/analyse', {
+                fetch('https://35.208.238.60/api/analyse', {
                     method: 'POST',
                     headers: {
                         Accept: 'application/json',
